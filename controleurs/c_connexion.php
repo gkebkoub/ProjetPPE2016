@@ -21,7 +21,8 @@ switch($action){
 			$id = $visiteur['id'];
 			$nom =  $visiteur['nom'];
 			$prenom = $visiteur['prenom'];
-                        // Allez Paris !
+                        $type = $visiteur['type'];
+                        
 			connecter($id,$nom,$prenom,$type);
                         if($type=='visiteur'){
 			include("vues/v_sommaire.php");
