@@ -21,9 +21,15 @@ switch($action){
 			$id = $visiteur['id'];
 			$nom =  $visiteur['nom'];
 			$prenom = $visiteur['prenom'];
-			connecter($id,$nom,$prenom);
+                        // Allez Paris !
+			connecter($id,$nom,$prenom,$type);
+                        if($type=='visiteur'){
 			include("vues/v_sommaire.php");
+                        }else{
+                            include("vues/v_sommaireComptable.php");
+                        }
 		}
+                
 		break;
 	}
 	default :{
