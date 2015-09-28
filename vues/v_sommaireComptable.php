@@ -12,7 +12,7 @@
 				Comptable :<br> <?php echo $_SESSION['prenom']."  ".$_SESSION['nom']  ?>
 			</li>
            <li class="smenu">
-              <a href="index.php?uc=gererFrais&action=validation" title="Validation Frais ">Validation Frais</a>
+              <a href="index.php?uc=ValidationFrais&action=validation" title="Validation Frais ">Validation Frais</a>
            </li>
            <li class="smenu">
               <a href="index.php?uc=etatFrais&action=suiviPaiement" title="Suivi de paiements">Suivi de paiements</a>
