@@ -1,8 +1,9 @@
 <?php
 $action = $_REQUEST['action'];
 switch($action){
-	case 'validationFrais':{
-		include ("v_validationFrais.php");
+	case 'ValidationFrais':
+        {
+		include ("vues/v_validationFrais.php");
 		break;
 	}
 }
