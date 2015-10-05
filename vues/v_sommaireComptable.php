@@ -9,10 +9,10 @@
       </div>  
         <ul id="menuList">
 			<li >
-				Comptable :<br> <?php echo $_SESSION['prenom']."  ".$_SESSION['nom']  ?>
+				Comptable: <?php echo $_SESSION['prenom']." ".$_SESSION['nom']  ?>
 			</li>
            <li class="smenu">
-              <a href="index.php?uc=ValidationFrais&action=ValidationFrais" title="Validation Frais ">Validation Frais</a>
+              <a href="index.php?uc=ValidationFrais&action=choixVisiteur" title="Validation Frais ">Validation Frais</a>
            </li>
            <li class="smenu">
               <a href="index.php?uc=etatFrais&action=suiviPaiement" title="Suivi de paiements">Suivi de paiements</a>

@@ -1,9 +1,12 @@
 <?php
 $action = $_REQUEST['action'];
 switch($action){
-	case 'ValidationFrais':
+	case 'choixVisiteur':
         {
-		include ("vues/v_validationFrais.php");
+                $tab=$pdo->GetLesVisiteursCloturer();
+                
+                include ("vues/v_validationFrais.php");
+                
 		break;
 	}
 }
