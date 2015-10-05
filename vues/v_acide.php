@@ -1,4 +1,3 @@
-﻿    <!-- Division pour le sommaire -->
     <div id="menuGauche">
      <div id="infosUtil">
     
@@ -25,22 +24,3 @@
     </div>
 
 <div id="contenu">
-    
-    <h2> Validation Fiche de frais :</h2>
-    <h3> Selectionner le visiteur  </h3>
-    <form action="index.php?uc=ValidationFrais&action=choixDate" method="POST" onchange="submit()">
-    
-    <select>
- <?php 
-  
- 
-  foreach ($tab as $res) {
-    echo"<option value=".$res['id'].">".$res['nom']."</option>";
-   }
- 
- ?>
-        </select>
-</form>
-    
-</div>
-    

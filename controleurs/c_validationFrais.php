@@ -5,10 +5,16 @@ switch($action){
         {
                 $tab=$pdo->GetLesVisiteursCloturer();
                 
-                include ("vues/v_validationFrais.php");
+                include ("vues/v_choixVisiteur.php");
                 
 		break;
 	}
+        case'choixMois':
+        {
+            include ("vues/v_choixMois.php");
+                
+		break;
+        }
 }
 /* 
  * To change this license header, choose License Headers in Project Properties.
