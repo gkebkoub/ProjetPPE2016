@@ -8,7 +8,8 @@
     <h3> Selectionner le visiteur  </h3>
     <form action="index.php?uc=ValidationFrais&action=choixMois" method="POST" onchange="submit()">
     
-    <select>
+    <select name='visiteur'>
+        <option value=''>Choisir un Visiteur</option>
  <?php 
   
  

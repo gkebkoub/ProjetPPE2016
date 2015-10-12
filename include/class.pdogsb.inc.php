@@ -69,6 +69,14 @@ class PdoGsb{
             
             return $ligne;
         }
+        public function getLesMois($id){
+            $req="select mois from fichefrais where idVisiteur='$id'";
+            $rs = PdoGsb::$monPdo->query($req);
+            $ligne = $rs->fetchAll();
+            
+            
+            return $ligne;
+        }
 
 /**
  * Retourne sous forme d'un tableau associatif toutes les lignes de frais hors forfait

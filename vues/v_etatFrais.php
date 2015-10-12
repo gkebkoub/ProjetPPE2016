@@ -1,4 +1,6 @@
-﻿
+<?php
+include("v_acide.php");
+?>﻿
 <h3>Fiche de frais du mois <?php echo $numMois."-".$numAnnee?> : 
     </h3>
     <div class="encadre">
@@ -58,6 +60,7 @@
     </table>
   </div>
   </div>
+  <a href="index.php?uc=ValidationFrais&action=actualiserFraisForfait"> Modifier</a>
  
 
 
